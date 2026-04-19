@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message LedCommand {
+  bool has_led_on = 1;
+  bool led_on = 2;
+}
+
+message LedStatus {
+  bool led_on = 1;
+  string message = 2;
+}
